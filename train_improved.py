@@ -38,7 +38,7 @@ class Config:
     WEIGHT_DECAY = 1e-5
     VAL_SPLIT = 0.15
     SAVE_DIR = "./checkpoints_improved"
-    BEST_MODEL = "best_model_improved.pth"
+    BEST_MODEL = "segmentation.pth"
     ACCUM_STEPS = 2
     AMP = True
     SEED = 42
